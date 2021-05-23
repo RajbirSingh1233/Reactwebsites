@@ -223,7 +223,7 @@
 .card-front{
   height: 100%;
   width: 100%;
-  background-image: ;
+  background-image: url(./images/Snapchat-1449509.jpg);
   background-position: 50% 50%;
   background-size: cover;
   position: absolute;
@@ -241,7 +241,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #3498db;
+  background-color: black;
   backface-visibility: hidden;
   transform: rotateX(180deg);
   transition: .5s;
@@ -261,4 +261,53 @@
 .card-back Navlink:hover{
   color: #3498db;
   background-color: #FFF;
+}
+
+
+/* @media(max-width:991px) {
+  .navbar_brand{
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+} */
+.form-control{
+  letter-spacing: 1.3px;
+  text-transform: capitalize;
+}
+
+.contact{
+  text-shadow: 1px 3px 7px rgba(0,0,0,0.64);
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+
+.ser{
+  text-shadow: 1px 3px 7px rgba(0,0,0,0.64);
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.carousel{
+  height: 70vh;
+  width: 100%;
+  margin-left: 100px;
+}
+
+@media(max-width: 767px) {
+  .container {
+      width: auto;
+  }
+
+  .carousel{
+    height: 90vh;
+    width: 100%;
+    font-size: 20px;
+  }
 }

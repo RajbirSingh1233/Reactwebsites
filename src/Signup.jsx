@@ -6,8 +6,9 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 const Signup = () =>{
 
     const Created=()=>{
+        
         alert("Account created Successfully");
-        <NavLink to="/login"/>
+        <NavLink to="/login"></NavLink>
     }
 
     return(
@@ -28,31 +29,31 @@ const Signup = () =>{
 
                     <div class="form-row">
                             <div class="offset-1 col-lg-10">
-                                <input type="text" class="inp px-3" placeholder="First Name"/>
+                                <input type="text" class="inp px-3" placeholder="First Name" required/>
                             </div>
                         </div>
 
                         <div class="form-row py-3">
                             <div class="offset-1 col-lg-10">
-                                <input type="text" class="inp px-3" placeholder="Last Name"/>
+                                <input type="text" class="inp px-3" placeholder="Last Name" required/>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="offset-1 col-lg-10">
-                                <input type="text" class="inp px-3" placeholder="UserName"/>
+                                <input type="text" class="inp px-3" placeholder="UserName" required/>
                             </div>
                         </div>
 
                         <div class="form-row py-3">
                             <div class="offset-1 col-lg-10">
-                                <input type="number" class="inp px-3" placeholder="Pincode"/>
+                                <input type="number" class="inp px-3" placeholder="Pincode" required/>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="offset-1 col-lg-10">
-                                <input type="password" class="inp px-3" placeholder="Password"/>
+                                <input type="password" class="inp px-3" placeholder="Password" required/>
                             </div>
                         </div>
                         

@@ -18,7 +18,7 @@ const Sdata = [
     {
         imgsrc:rest2,
         title:"Basant", 
-        text: "A recipe has no soul. You, as the cook, must bring soul to the recipe" ,
+        text: "A recipe has no soul" ,   
     },
     {
         imgsrc:rest3,

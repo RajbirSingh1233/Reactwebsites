@@ -17,13 +17,13 @@ const Login = () =>{
                     <form>
                         <div class="form-row">
                             <div class="offset-1 col-lg-10">
-                                <input type="text" class="inp px-3" placeholder="UserName"/>
+                                <input type="text" class="inp px-3" placeholder="UserName" required/>
                             </div>
                         </div>
 
                         <div class="form-row py-3">
                             <div class="offset-1 col-lg-10">
-                                <input type="password" class="inp px-3" placeholder="Password"/>
+                                <input type="password" class="inp px-3" placeholder="Password" required/>
                             </div>
                         </div>
 

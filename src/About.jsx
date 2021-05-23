@@ -7,7 +7,7 @@ const About = () =>{
       <div className="card" id="card1">
         <div className="card-front"></div>
         <div className="card-back">
-          <h2>Rajbir<br /><span>Senior Designer</span></h2>
+          <h2>Rajbir Singh<br/><br /><span>Senior Designer</span></h2>
           <div>
             <NavLink to="#" className="fa fa-facebook"></NavLink>
             <NavLink to="#" className="fa fa-twitter"></NavLink>

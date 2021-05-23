@@ -26,7 +26,7 @@ const Contact = () =>{
   return(
     <>
       <div className="my-5">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center contact">Contact Us</h1>
       </div>
         <div className="container contact_div">
           <div className="row">
@@ -35,7 +35,7 @@ const Contact = () =>{
             <form onSubmit={formSubmit}>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" name="fullname" value={data.fullname} onChange={InputEvent} placeholder="Enter you name" />
+              <input type="text" class="form-control" id="FullName" name="fullname" value={data.fullname} onChange={InputEvent} placeholder="Enter your name" required/>
             </div>
 
             <div class="mb-3">
@@ -45,17 +45,17 @@ const Contact = () =>{
 
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" name="email" value={data.email} onChange={InputEvent} placeholder="name@example.com" />
+              <input type="email" class="form-control" id="emailaddress" name="email" value={data.email} onChange={InputEvent} placeholder="name@example.com" required/>
             </div>
 
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" name="msg" value={data.msg} onChange={InputEvent} rows="3"></textarea>
+              <label for="exampleFormControlTextarea1" class="form-label">Reviews</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" name="msg" value={data.msg} onChange={InputEvent} rows="3" required></textarea>
             </div>
             </form>
 
             <div class="col-12 text-center">
-    <button class="btn btn-outline-primary" type="submit" onClick={formSubmit}>Submit form</button>
+    <button class="btn btn-outline-primary mb-3" type="submit" onClick={formSubmit}>Submit form</button>
   </div>
 
 
